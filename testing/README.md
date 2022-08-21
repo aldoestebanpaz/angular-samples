@@ -1,3 +1,15 @@
+- [Samples of testing on Angular](#samples-of-testing-on-angular)
+  - [Isolated unit tests](#isolated-unit-tests)
+  - [Interaction unit tests](#interaction-unit-tests)
+  - [Integration tests](#integration-tests)
+    - [Shallow tests](#shallow-tests)
+    - [Deep integration tests](#deep-integration-tests)
+    - [Integration tests of services using the HttpClient service](#integration-tests-of-services-using-the-httpclient-service)
+    - [Triggering events on deep integration tests](#triggering-events-on-deep-integration-tests)
+    - [Interacting with DOM](#interacting-with-dom)
+    - [Testing components with other common dependencies](#testing-components-with-other-common-dependencies)
+    - [Testing async calls](#testing-async-calls)
+
 # Samples of testing on Angular
 
 NOTE: It's customary with tests to write the spec file using the same exact name as the file to test, but replacing the word `.ts` by `.spec.ts` in the end of the name of the test file. And it's also customary to put it into the same directory. That way it's easy to see whether or not a piece of code has a test for it, and if not we can then write tests for it if we wish.
